@@ -1,0 +1,72 @@
+## English: CareerMate—Your AI-Powered Job Companion
+● Vietnamese: CareerMate – Bạn đồng hành ứng tuyển thông minh với AI
+● Abbreviation: CM
+a. Context:
+The number of final-year students who have already completed internships and are preparing for graduation has been increasing rapidly. These students are under pressure to improve their CVs, practice job interviews, and find suitable entry-level jobs.
+Currently, they rely on scattered sources such as job boards, social networks, or university career centers. This creates inefficiency and a gap between their skills and employers’ requirements.
+Therefore, there is a demand for a platform that leverages AI to support their career readiness: CV analysis, skill-gap detection, personalized career roadmaps, mock interviews, and AI-based job matching with recruiters.
+
+b. Proposed Solutions
+● Provide an AI-powered CV analyzer to evaluate and give feedback on students’ resumes.
+● Provide a Career Coach Chatbot for career consultation, skill recommendations, and mock interviews.
+● Develop a jobs marketplace where recruiters post job descriptions, and candidates apply.
+● Provide a Learning Hub including curated courses and roadmaps.
+● Implement gamification & mentorship features: badges, leaderboards, and challenges.
+● Enable Admin Web System to monitor the entire platform, manage users, jobs, and generate analytics.
+
+● Functional requirement
+o Candidate Web/Mobile App
+▪ Sign up / Login with Email, Google, or OAuth.
+▪ Create a personal profile and upload CV (PDF/DOCX).
+▪ Receiving Analyzer results.
+▪ Using Career AI Coach and receiving a career roadmap.
+▪ Take quizzes (career orientation, skills).
+▪ Apply for jobs and view job recommendations based on skills and job description(Recommendation System).
+▪ Edit CV based on available CV template.
+▪ View articles and company satisfaction rating.
+▪ Do challenges to get a badge(optional).
+▪ Buy a premium package.
+▪ Search for top companies
+o Admin Web System
+▪ Admin login and account management (students, recruiters, mentors, admins).
+▪ Manage cabinets of knowledge (CV templates, interview questions, resources).
+▪ Monitor system status, job posts, and approve/remove inappropriate content.
+▪ Generate system reports: users, jobs, skills in demand, application traffic.
+▪ Create Articles for Candidates to reference.
+▪ Monitor logs and analytics.
+▪ User package Management.
+o Recruiter Dashboard
+▪ Create a recruiter organization account.
+▪ Post new job openings.
+▪ View candidate pipelines and job matching scores.
+▪ Shortlist, interview, and offer candidates.
+▪ Finding appropriate candidates based on job description.
+● Non-functional requirement:
+○ CV upload and AI analysis completed in < 5 seconds (P95).
+○ AI response time ≤ 3.5 seconds.
+○ API response latency ≤ 400ms.
+○ Security: OAuth2, JWT.
+○ System architecture: Spring Boot monolithic.
+(*) 3.2. Main proposal content (including result and product)
+a. Theory and Practice (Documents)
+● Students apply Software Development Process and UML 2.0 for modeling the system.
+● Required documents: User Requirement, Software Requirement Specification, Architecture Design, Detail Design, Implementation, Testing Plan, Installation Guide, Source Code, and Deployable Software Packages.
+● Server-side technologies: Python, PostgreSQL, Redis, Vector DB (Weaviate/Pinecone).
+● Client-side technologies:
+o Web Client: ReactJS (Next.js optional).
+o Mobile App: React Native.
+b. Products:
+o Mobile App and Web for candidates.
+o Web Dashboard for Recruiters and Admin.
+o Web API (Spring Boot).
+o AI Service (CV Analyzer, Career Coach, Job Matching, Mock Interview).
+c. Proposed Tasks:
+o Task package 1: Develop Web Admin system.
+o Task package 2: Develop Candidate Web/Mobile App.
+o Task package 3: Develop Recruiter Dashboard.
+o Task package 4: Develop AI Services and integration with LLM APIs.
+o Task package 5: Build, Deploy, and Test the system.
+o Task package 6: Prepare documents (System Analysis & Design, Testing, Installation, User Manual).
+
+4. Other comments (propose all relative things if have).
+đây là nội dung đề tài của nhóm mình nhé
